@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import * as XLSX from "xlsx";
+import emailjs from 'emailjs-com';
 
 const PAGE_SIZES = [10, 25];
 
@@ -34,6 +35,26 @@ function downloadOrderTxt(item, fields) {
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
+}
+
+function sendOrderEmail(item, fields) {
+  const templateParams = {
+    code: item.code,
+    name: item.name,
+    article: item.article || '',
+    manufacturer: item.manufacturer || '',
+    price: item.price,
+    qty: fields.qty || 1,
+    user_name: fields.name || '',
+    user_phone: fields.phone || '',
+    user_email: fields.email || ''
+  };
+  return emailjs.send(
+    'service_tn4zeli',
+    'template_8956i1h',
+    templateParams,
+    'n-CjgkgKWU--0Pgsz'
+  );
 }
 
 export default function ProductTable({ groupId, resetQuantitiesTrigger, onQtyChange }) {
@@ -294,6 +315,13 @@ export default function ProductTable({ groupId, resetQuantitiesTrigger, onQtyCha
 
   const handleExpressSend = () => {
     if (modalItem) {
+      sendOrderEmail(modalItem, { ...expressFields, qty: modalQty })
+        .then(() => {
+          alert('Заказ успешно отправлен на почту!');
+        })
+        .catch(() => {
+          alert('Ошибка отправки письма!');
+        });
       downloadOrderTxt(modalItem, expressFields);
       setModalOpen(false);
       setActiveCartCode(null);
