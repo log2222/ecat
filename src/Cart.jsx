@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from 'emailjs-com';
 
 function generateOrderText(cart, fields) {
   let txt = `Заказ\n`;
@@ -41,17 +42,25 @@ export default function Cart({ cart, removeFromCart, setCart }) {
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
-    // EmailJS (заготовка)
-    /*
-    await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
-      message: txt,
-      company: fields.company,
-      email: fields.email,
-      phone: fields.phone
-    }, 'YOUR_USER_ID');
-    */
+    // EmailJS — рабочая отправка
+    try {
+      await emailjs.send(
+        'service_tn4zeli',
+        'template_8956i1h',
+        {
+          message: txt,
+          company: fields.company,
+          email: fields.email,
+          phone: fields.phone
+        },
+        'n-CjgkgKWU--0Pgsz'
+      );
+      setSent(true);
+    } catch (error) {
+      alert('Ошибка при отправке письма: ' + (error?.text || error?.message || error));
+      setSent(false);
+    }
     setSending(false);
-    setSent(true);
   };
 
   const handleQtyChange = (code, value) => {
