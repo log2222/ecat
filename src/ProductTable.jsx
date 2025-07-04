@@ -390,20 +390,20 @@ export default function ProductTable({ groupId, resetQuantitiesTrigger, onQtyCha
         <tbody>
           {pagedProducts.map(p => (
             <tr key={p.code} style={activeCartCode === p.code ? { background: '#e6e9f0', border: '2px solid #4a5a6a' } : {}}>
-              <td style={{ position: 'relative' }}>
+              <td data-label="Код" style={{ position: 'relative' }}>
                 <span ref={el => cartIconRefs.current[p.code] = el} style={{ display: 'inline-block' }}>
                   <CartIcon onClick={() => handleCartIconClick(p)} />
                 </span>
                 {p.code}
               </td>
-              <td>
+              <td data-label="Наименование">
                 <a href="#" target="_blank" rel="noopener noreferrer">{p.name}</a>
               </td>
-              <td style={{ textAlign: 'center' }}>{p.article || ''}</td>
-              <td style={{ textAlign: 'center' }}>{p.manufacturer || ''}</td>
-              <td>{p.price}</td>
-              <td>—</td>
-              <td>
+              <td data-label="Артикул" style={{ textAlign: 'center' }}>{p.article || ''}</td>
+              <td data-label="Производитель" style={{ textAlign: 'center' }}>{p.manufacturer || ''}</td>
+              <td data-label="Цена">{p.price}</td>
+              <td data-label="Склад">—</td>
+              <td data-label="Кол-во">
                 <input
                   type="number"
                   min="0"
@@ -412,7 +412,7 @@ export default function ProductTable({ groupId, resetQuantitiesTrigger, onQtyCha
                   style={{ width: 60 }}
                 />
               </td>
-              <td>
+              <td data-label="Сумма">
                 {quantities[p.code] && !isNaN(Number(quantities[p.code])) && Number(quantities[p.code]) > 0
                   ? (Number(quantities[p.code]) * Number((p.price + "").replace(/\s/g, "").replace(",", "."))).toLocaleString()
                   : ""
@@ -425,12 +425,12 @@ export default function ProductTable({ groupId, resetQuantitiesTrigger, onQtyCha
       {Pagination}
       <div className="page-size-panel">{PageSizeSelector}</div>
       {modalOpen && modalItem && (
-        <div style={{ position: 'absolute', top: popoverPos.top, left: popoverPos.left, zIndex: 2000, minWidth: 220 }}>
+        <div style={{ position: 'absolute', top: popoverPos.top, left: popoverPos.left, zIndex: 2000, minWidth: 220, width: window.innerWidth < 700 ? '95vw' : undefined }}>
           <div style={{ position: 'relative' }}>
             <div style={{ position: 'absolute', top: -12, left: 24 }}>
-              <svg width="32" height="16"><polygon points="16,0 28,16 4,16" fill="#fff" stroke="#ccc"/></svg>
+              <svg width="32" height="16"><polygon points="16,0 28,16 4,16" fill="#e6e9f0" stroke="#4a5a6a"/></svg>
             </div>
-            <div style={{ background: '#e6e9f0', color: '#222', borderRadius: 8, padding: 14, minWidth: 180, boxShadow: '0 4px 24px #0006', position: 'relative', border: '2px solid #4a5a6a' }}>
+            <div style={{ background: '#e6e9f0', color: '#222', borderRadius: 8, padding: window.innerWidth < 700 ? 8 : 14, minWidth: 180, boxShadow: '0 4px 24px #0006', position: 'relative', border: '2px solid #4a5a6a' }}>
               <button onClick={handleCloseModal} style={{ position: 'absolute', top: 4, right: 8, background: 'none', border: 'none', fontSize: 18, color: '#888', cursor: 'pointer' }}>×</button>
               {!showExpress ? (
                 <>
