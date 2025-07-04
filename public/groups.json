@@ -1,0 +1,3423 @@
+[
+  {
+    "id": "group_0",
+    "code": "0М-00177968",
+    "name": "00. PRO GAMER",
+    "children": [
+      {
+        "id": "group_1",
+        "code": "00-00247731",
+        "name": "Игровые кресла",
+        "children": [],
+        "level": 1
+      }
+    ],
+    "level": 0
+  },
+  {
+    "id": "group_15",
+    "code": "0М-00014385",
+    "name": "01. Комплектующие для ПК",
+    "children": [
+      {
+        "id": "group_16",
+        "code": "00-00000185",
+        "name": "Видеокарты",
+        "children": [
+          {
+            "id": "group_17",
+            "code": "0М-00134208",
+            "name": "NVIDIA Tesla, Quadro",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_29",
+            "code": "00-00000189",
+            "name": "Аксесуары для GPU",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_39",
+            "code": "00-00000186",
+            "name": "Видеокарты PCI-E",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_160",
+            "code": "0М-00112472",
+            "name": "Майнинг",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_163",
+            "code": "00-00000187",
+            "name": "ТВ-тюнеры и видеозахват",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_177",
+        "code": "00-00000198",
+        "name": "Жесткие диски и SSD",
+        "children": [
+          {
+            "id": "group_178",
+            "code": "00-00000200",
+            "name": "Жесткие диски 2.5\"",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_195",
+            "code": "00-00000199",
+            "name": "Жесткие диски SATA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_398",
+            "code": "00-00000203",
+            "name": "Корпуса для HDD и SSD",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_449",
+            "code": "0М-00098897",
+            "name": "Накопитель SSD 2.5\" SATA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_684",
+            "code": "0М-00098899",
+            "name": "Накопитель SSD M.2",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_982",
+            "code": "0М-00098900",
+            "name": "Накопитель SSD mSATA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_994",
+            "code": "00-00000205",
+            "name": "Опции для HDD и SSD",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_1001",
+        "code": "0М-00143959",
+        "name": "Компьютерные кабели",
+        "children": [
+          {
+            "id": "group_1002",
+            "code": "00-00272540",
+            "name": "COM (RS-232)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1005",
+            "code": "00-00272541",
+            "name": "EPS 8/4-pin",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1007",
+            "code": "00-00272544",
+            "name": "Molex - Molex",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1012",
+            "code": "00-00272545",
+            "name": "Molex - PCI-E",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1014",
+            "code": "00-00272546",
+            "name": "Molex - SATA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1016",
+            "code": "00-00272547",
+            "name": "PCI-E - PCI-E",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1018",
+            "code": "00-00310985",
+            "name": "разные кабеля для пк",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_1020",
+        "code": "00-00000089",
+        "name": "Контроллеры",
+        "children": [
+          {
+            "id": "group_1021",
+            "code": "00-00000091",
+            "name": "Bluetooth",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1033",
+            "code": "00-00000093",
+            "name": "Port",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1046",
+            "code": "0М-00065941",
+            "name": "SATA, RAID контроллеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1052",
+            "code": "00-00023939",
+            "name": "USB",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1056",
+            "code": "00-00000090",
+            "name": "Звуковые карты",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1068",
+            "code": "00-00000095",
+            "name": "Звуковые карты USB",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1085",
+            "code": "00-00000094",
+            "name": "Кардридеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1092",
+            "code": "00-00000092",
+            "name": "Контроллеры разные",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_1108",
+        "code": "00-00000206",
+        "name": "Корпуса и БП",
+        "children": [
+          {
+            "id": "group_1109",
+            "code": "00-00000210",
+            "name": "Блоки питания",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1510",
+            "code": "00-00000209",
+            "name": "Корпуса ATX",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1545",
+            "code": "00-00000211",
+            "name": "Корпуса ATX без БП",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1711",
+            "code": "00-00000207",
+            "name": "Корпуса ITX",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1736",
+            "code": "00-00000208",
+            "name": "Корпуса mATX",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1757",
+            "code": "00-00000212",
+            "name": "Корпуса mATX без БП",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1839",
+            "code": "0М-00017647",
+            "name": "Опции для корпусов",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_1969",
+        "code": "00-00000096",
+        "name": "Материнские платы",
+        "children": [
+          {
+            "id": "group_1970",
+            "code": "0М-00113455",
+            "name": "MB OLD 775",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1972",
+            "code": "00-00000101",
+            "name": "MB Socket-1150",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1974",
+            "code": "00-00000102",
+            "name": "MB Socket-1151",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1978",
+            "code": "0М-00117485",
+            "name": "MB Socket-1151v2",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1980",
+            "code": "00-00247508",
+            "name": "MB Socket-1200",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_1995",
+            "code": "00-00282786",
+            "name": "MB Socket-1700",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2079",
+            "code": "0М-00103998",
+            "name": "MB Socket-2066",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2083",
+            "code": "0М-00098285",
+            "name": "MB Socket-AM4",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2142",
+            "code": "00-00306553",
+            "name": "MB Socket-AM5",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2175",
+            "code": "00-00000100",
+            "name": "Мат. плата + процессор",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_2210",
+        "code": "00-00000118",
+        "name": "Оперативная память",
+        "children": [
+          {
+            "id": "group_2211",
+            "code": "00-00000124",
+            "name": "Память DDR2",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2216",
+            "code": "00-00000122",
+            "name": "Память DDR3",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2280",
+            "code": "00-00000121",
+            "name": "Память DDR4",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2599",
+            "code": "00-00290313",
+            "name": "Память DDR5",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2731",
+            "code": "00-00000120",
+            "name": "Память SO-DIMM",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_2905",
+        "code": "00-00000227",
+        "name": "Оптические приводы",
+        "children": [
+          {
+            "id": "group_2906",
+            "code": "00-00000229",
+            "name": "Blu-Ray",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2910",
+            "code": "00-00000232",
+            "name": "DVD-ROM",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2912",
+            "code": "00-00000228",
+            "name": "DVD±RW",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2930",
+            "code": "00-00000230",
+            "name": "Внешние оптические приводы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2947",
+            "code": "00-00000233",
+            "name": "Дисководы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_2949",
+            "code": "00-00000231",
+            "name": "Приводы для ноутбуков",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_2952",
+        "code": "00-00210107",
+        "name": "Процессоры",
+        "children": [],
+        "level": 1
+      },
+      {
+        "id": "group_3082",
+        "code": "00-00000135",
+        "name": "Системы охлаждения",
+        "children": [
+          {
+            "id": "group_3083",
+            "code": "00-00000136",
+            "name": "Вентиляторы для корпуса",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3276",
+            "code": "00-00000137",
+            "name": "Кулера для AMD",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3280",
+            "code": "00-00000140",
+            "name": "Кулера для HDD",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3283",
+            "code": "00-00000138",
+            "name": "Кулера для intel",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3323",
+            "code": "00-00000141",
+            "name": "Кулера для видеокарт",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3327",
+            "code": "00-00000139",
+            "name": "Кулера универсальные",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3469",
+            "code": "00-00000142",
+            "name": "Опции для кулеров",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3539",
+            "code": "0М-00073026",
+            "name": "Системы водяного охлаждения",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ],
+    "level": 0
+  },
+  {
+    "id": "group_3716",
+    "code": "00-00000076",
+    "name": "02. Компьютерная техника",
+    "children": [
+      {
+        "id": "group_3717",
+        "code": "0М-00035063",
+        "name": "01. Настольные компьютеры",
+        "children": [
+          {
+            "id": "group_3718",
+            "code": "00-00000078",
+            "name": "Компьютеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3739",
+            "code": "00-00000081",
+            "name": "Миникомпьютеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3742",
+            "code": "00-00000080",
+            "name": "Моноблоки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3763",
+            "code": "00-00000083",
+            "name": "Опции для ПК",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3784",
+            "code": "00-00000084",
+            "name": "Тонкий клиент",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_3792",
+        "code": "00-00290137",
+        "name": "02. Периферия и аксессуары",
+        "children": [
+          {
+            "id": "group_3793",
+            "code": "0М-00103905",
+            "name": "Аксессуары для наушников",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3798",
+            "code": "00-00000349",
+            "name": "Аксессуары периферии",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3805",
+            "code": "00-00000357",
+            "name": "Веб-камеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3872",
+            "code": "00-00000346",
+            "name": "Джойстики и рули",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_3894",
+            "code": "00-00000344",
+            "name": "Клавиатуры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_4195",
+            "code": "00-00000343",
+            "name": "Коврики для мышей",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_4414",
+            "code": "00-00000351",
+            "name": "Колонки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_4614",
+            "code": "00-00000339",
+            "name": "Комплекты клавиатура+мышь",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_4740",
+            "code": "00-00000362",
+            "name": "Микрофоны",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_4772",
+            "code": "00-00000144",
+            "name": "Мониторы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_5220",
+            "code": "00-00000342",
+            "name": "Мышки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_5966",
+            "code": "00-00000352",
+            "name": "Наушники и гарнитуры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6455",
+            "code": "00-00000348",
+            "name": "Пульты, презентеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6469",
+            "code": "00-00000375",
+            "name": "Эргономика",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_6478",
+        "code": "00-00000175",
+        "name": "04. Ноутбуки",
+        "children": [
+          {
+            "id": "group_6479",
+            "code": "0М-00132746",
+            "name": "Ноутбуки разные",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6535",
+            "code": "00-00000180",
+            "name": "Ноутбуки с экраном 13\"+",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6540",
+            "code": "00-00000181",
+            "name": "Ноутбуки с экраном 14\"+",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6551",
+            "code": "00-00000176",
+            "name": "Ноутбуки с экраном 15\"+",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6565",
+            "code": "00-00000177",
+            "name": "Ноутбуки с экраном 17\"+",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_6659",
+        "code": "00-00000125",
+        "name": "05. Аксессуары для ноутбуков",
+        "children": [
+          {
+            "id": "group_6660",
+            "code": "00-00000129",
+            "name": "Адаптеры питания для ноутбуков",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6722",
+            "code": "00-00000126",
+            "name": "Аксессуары для ноутбуков",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6726",
+            "code": "0М-00012308",
+            "name": "Док-станции, порт-репликаторы для ноутбуков",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6736",
+            "code": "00-00000127",
+            "name": "Охлаждающие подставки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6758",
+            "code": "00-00000128",
+            "name": "Сумки для ноутбуков",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_6916",
+        "code": "00-00000245",
+        "name": "11. Носители информации",
+        "children": [
+          {
+            "id": "group_6917",
+            "code": "00-00000252",
+            "name": "CD, DVD, BluRay",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_6985",
+            "code": "00-00000246",
+            "name": "Внешние жёсткие диски и SSD",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_7281",
+            "code": "00-00000247",
+            "name": "Карты памяти",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_7453",
+            "code": "0М-00173562",
+            "name": "Карты памяти MicroSD",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_7537",
+            "code": "00-00000249",
+            "name": "Конверты, боксы и портмоне",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_7541",
+            "code": "00-00000335",
+            "name": "Устройства для чтения карт памяти",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_7593",
+            "code": "00-00000248",
+            "name": "Флешки",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_8212",
+        "code": "00-00000382",
+        "name": "14. Принтеры, МФУ, Сканеры",
+        "children": [
+          {
+            "id": "group_8213",
+            "code": "00-00000376",
+            "name": "Аксессуары и опции",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8275",
+            "code": "00-00000377",
+            "name": "Копиры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8279",
+            "code": "00-00000385",
+            "name": "МФУ лазерные",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8408",
+            "code": "00-00000387",
+            "name": "МФУ струйные",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8448",
+            "code": "00-00000399",
+            "name": "Опции для сканеров",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8451",
+            "code": "00-00000391",
+            "name": "Опции к плоттерам",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8453",
+            "code": "00-00000394",
+            "name": "Опции к принтерам",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8667",
+            "code": "00-00000392",
+            "name": "Плоттеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8680",
+            "code": "0М-00013097",
+            "name": "Принтеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8682",
+            "code": "00-00000383",
+            "name": "Принтеры лазерные",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8759",
+            "code": "00-00000390",
+            "name": "Принтеры струйные",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8769",
+            "code": "00-00000397",
+            "name": "Сканеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8800",
+            "code": "00-00000388",
+            "name": "Специализированные принтеры",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_8813",
+        "code": "00-00000316",
+        "name": "15. ИБП и сетевые фильтры",
+        "children": [
+          {
+            "id": "group_8814",
+            "code": "00-00000321",
+            "name": "Аксессуары для ИБП",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_8898",
+            "code": "00-00000322",
+            "name": "Батареи для ИБП",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_9184",
+            "code": "00-00000319",
+            "name": "ИБП Back",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_9259",
+            "code": "00-00000325",
+            "name": "ИБП Back Pro",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_9278",
+            "code": "0М-00097377",
+            "name": "ИБП Brick",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_9282",
+            "code": "00-00000320",
+            "name": "ИБП On-Line",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_9330",
+            "code": "00-00000318",
+            "name": "ИБП Smart",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_9385",
+            "code": "00-00000324",
+            "name": "ИБП Разные",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_9633",
+            "code": "00-00000317",
+            "name": "Сетевые фильтры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10068",
+            "code": "00-00000323",
+            "name": "Стабилизаторы напряжения",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_10150",
+        "code": "00-00000266",
+        "name": "16. Сетевое Оборудование",
+        "children": [
+          {
+            "id": "group_10151",
+            "code": "00-00270156",
+            "name": "Адаптеры Wi-Fi, Bluetooth",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10153",
+            "code": "00-00000290",
+            "name": "Дополнительные модули и трансиверы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10155",
+            "code": "0М-00047792",
+            "name": "Инструмент, маркировка, стяжки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10244",
+            "code": "00-00000272",
+            "name": "Инструменты (сетев.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10249",
+            "code": "00-00272552",
+            "name": "Инструмент для зачистки проводов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10302",
+            "code": "00-00000273",
+            "name": "Кабель UTP, FTP",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10303",
+            "code": "00-00272559",
+            "name": "Кабели SFP",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10309",
+            "code": "00-00272555",
+            "name": "Категория 5e",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10313",
+            "code": "00-00272558",
+            "name": "Категория 6a",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10398",
+            "code": "00-00000269",
+            "name": "Коммутаторы (Switch)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10798",
+            "code": "00-00000274",
+            "name": "Коннекторы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10832",
+            "code": "00-00272550",
+            "name": "Контроллеры Wi-Fi",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_10835",
+            "code": "00-00000268",
+            "name": "Маршрутизаторы (Routers)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_11055",
+            "code": "0М-00026080",
+            "name": "Медиаконверторы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_11079",
+            "code": "00-00000428",
+            "name": "Модемы 3G/4G",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_11091",
+            "code": "00-00000276",
+            "name": "Патч корды",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_11488",
+            "code": "00-00000282",
+            "name": "Переключатель KVM",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_11557",
+            "code": "00-00231880",
+            "name": "Повторители беспроводного сигнала",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_11581",
+            "code": "0М-00013425",
+            "name": "Прочее сетевое оборудование",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12038",
+            "code": "00-00242737",
+            "name": "Розетки, разъёмы, колпачки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12049",
+            "code": "00-00000271",
+            "name": "Сетевые адаптеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12149",
+            "code": "00-00000277",
+            "name": "Сетевые антены",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12184",
+            "code": "00-00000279",
+            "name": "Сетевые карты PCI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12212",
+            "code": "00-00231881",
+            "name": "Сетевые экраны",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12218",
+            "code": "0М-00017615",
+            "name": "Сплитеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12224",
+            "code": "00-00000270",
+            "name": "Точки доступа",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12349",
+            "code": "00-00000284",
+            "name": "Усилитель WiFi, 3G, 4G сигнала, антенны",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_12359",
+        "code": "00-00000437",
+        "name": "17. Проекторы и доски",
+        "children": [
+          {
+            "id": "group_12360",
+            "code": "00-00000438",
+            "name": "Доп. Оборудование",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12365",
+            "code": "00-00000441",
+            "name": "Кронштейны для проекторов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12399",
+            "code": "00-00000439",
+            "name": "Проекторы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12426",
+            "code": "00-00000442",
+            "name": "Экраны",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_12586",
+        "code": "00-00000298",
+        "name": "19. Программное обеспечение",
+        "children": [
+          {
+            "id": "group_12587",
+            "code": "00-00000302",
+            "name": "Microsoft OEM",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12593",
+            "code": "00-00000299",
+            "name": "Microsoft Office",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12596",
+            "code": "00-00000304",
+            "name": "Microsoft Windows BOX",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12603",
+            "code": "0М-00098001",
+            "name": "Microsoft Windows Server",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12607",
+            "code": "00-00000300",
+            "name": "Антивирусное ПО",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12623",
+            "code": "00-00000301",
+            "name": "Другой софт",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12640",
+            "code": "0М-00065996",
+            "name": "Лицензии с НДС",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12643",
+            "code": "0М-00018004",
+            "name": "СОФТ (БЕЗ НДС!)",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_12652",
+        "code": "00-00000327",
+        "name": "20. Аксессуары",
+        "children": [
+          {
+            "id": "group_12653",
+            "code": "00-00000330",
+            "name": "Аккумуляторные батарейки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12669",
+            "code": "00-00271715",
+            "name": "Аксессуары для периферии",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12671",
+            "code": "0М-00000405",
+            "name": "Батарейки (Элементы питания)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12716",
+            "code": "00-00000331",
+            "name": "Зарядные устройства (разные)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12743",
+            "code": "00-00000329",
+            "name": "Концентраторы (USB Хабы)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12812",
+            "code": "00-00000328",
+            "name": "Чистящие средства",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_12907",
+        "code": "00-00000213",
+        "name": "21. Кабели и переходники",
+        "children": [
+          {
+            "id": "group_12908",
+            "code": "0М-00143950",
+            "name": "DisplayPort - DisplayPort",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12930",
+            "code": "0М-00143951",
+            "name": "DisplayPort - DVI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12936",
+            "code": "0М-00143952",
+            "name": "DisplayPort - HDMI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12946",
+            "code": "00-00272526",
+            "name": "DisplayPort - Mini DisplayPort",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12948",
+            "code": "0М-00143953",
+            "name": "DisplayPort - VGA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12955",
+            "code": "0М-00143954",
+            "name": "DVI - DVI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12958",
+            "code": "0М-00143955",
+            "name": "DVI - VGA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_12974",
+            "code": "0М-00173554",
+            "name": "HDMI - DVI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13002",
+            "code": "0М-00143956",
+            "name": "HDMI - DVI (переходник)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13012",
+            "code": "0М-00173555",
+            "name": "HDMI - HDMI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13163",
+            "code": "0М-00143957",
+            "name": "HDMI - HDMI (адаптеры)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13170",
+            "code": "00-00272527",
+            "name": "HDMI - Micro HDMI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13172",
+            "code": "00-00272528",
+            "name": "HDMI - Mini HDMI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13175",
+            "code": "0М-00143958",
+            "name": "HDMI - VGA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13183",
+            "code": "00-00000216",
+            "name": "Jack - Jack",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13259",
+            "code": "00-00264607",
+            "name": "microUSB - USB Type-C",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13261",
+            "code": "00-00272529",
+            "name": "Mini DisplayPort - DVI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13263",
+            "code": "00-00272531",
+            "name": "Mini DisplayPort - Mini DisplayPort",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13265",
+            "code": "00-00272532",
+            "name": "Mini DisplayPort - VGA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13268",
+            "code": "00-00272523",
+            "name": "RCA - RCA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13270",
+            "code": "00-00264608",
+            "name": "USB - COM",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13273",
+            "code": "00-00242742",
+            "name": "USB - Lightning",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13281",
+            "code": "00-00242738",
+            "name": "USB - microUSB",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13314",
+            "code": "00-00272515",
+            "name": "USB - microUSB/USB Type-C",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13316",
+            "code": "00-00000219",
+            "name": "USB - USB",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13353",
+            "code": "00-00264616",
+            "name": "USB - USB Type-C",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13367",
+            "code": "00-00272536",
+            "name": "USB Type-C - HDMI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13370",
+            "code": "00-00272516",
+            "name": "USB Type-C - Lightning",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13372",
+            "code": "00-00272517",
+            "name": "USB Type-C - USB Type-C",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13376",
+            "code": "00-00242740",
+            "name": "USB Type-C кабель",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13384",
+            "code": "00-00242741",
+            "name": "USB кабель для Apple/Samsung",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13387",
+            "code": "0М-00143960",
+            "name": "USB переходники",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13410",
+            "code": "0М-00143961",
+            "name": "VGA - VGA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13415",
+            "code": "00-00264624",
+            "name": "XLR - XLR",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13417",
+            "code": "00-00000214",
+            "name": "Адаптеры и переходники",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13501",
+            "code": "00-00000224",
+            "name": "Антенные кабели",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13508",
+            "code": "0М-00143962",
+            "name": "Аудио переходники",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13520",
+            "code": "0М-00014597",
+            "name": "Без группы (usb)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13594",
+            "code": "00-00000218",
+            "name": "Кабели HDMI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13642",
+            "code": "0М-00173556",
+            "name": "Кабели HDMI - Micro HDMI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13647",
+            "code": "0М-00173557",
+            "name": "Кабели HDMI - Mini HDMI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13654",
+            "code": "0М-00173558",
+            "name": "Кабели HDMI - VGA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13658",
+            "code": "0М-00018894",
+            "name": "Кабели VGA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13724",
+            "code": "00-00000215",
+            "name": "Кабели питания",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13861",
+            "code": "0М-00014493",
+            "name": "Кабель AM microBM/miniBM",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13903",
+            "code": "0М-00014491",
+            "name": "Кабель AM/BM",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_13947",
+            "code": "00-00000217",
+            "name": "Кабель DVI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14005",
+            "code": "00-00272518",
+            "name": "Прочие USB",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14010",
+            "code": "0М-00143964",
+            "name": "Разветвители, конвертеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14034",
+            "code": "00-00000220",
+            "name": "Разные кабели",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14140",
+            "code": "0М-00031118",
+            "name": "Розетки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14145",
+            "code": "0М-00014492",
+            "name": "Удлинитель AM/AF",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14187",
+            "code": "00-00000225",
+            "name": "Шлейфы (PCI, ATX, FDD)",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ],
+    "level": 0
+  },
+  {
+    "id": "group_14321",
+    "code": "0М-00000040",
+    "name": "03. Расходные материалы",
+    "children": [
+      {
+        "id": "group_14322",
+        "code": "00-00000403",
+        "name": "Бумага для оргтехники",
+        "children": [
+          {
+            "id": "group_14323",
+            "code": "00-00000408",
+            "name": "10х15",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14347",
+            "code": "00-00000409",
+            "name": "А3 и A3+",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14359",
+            "code": "00-00000407",
+            "name": "А4",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14426",
+            "code": "00-00000406",
+            "name": "Бумага для офисной техники",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14431",
+            "code": "0М-00025971",
+            "name": "Бумага для САПР и ГИС",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14434",
+            "code": "00-00288725",
+            "name": "Бумага для термопереноса",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14436",
+            "code": "00-00000404",
+            "name": "Малоформатная бумага",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14474",
+            "code": "00-00000412",
+            "name": "Неформатные листы и рулоны",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14478",
+            "code": "0М-00025970",
+            "name": "Офсетная",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14482",
+            "code": "00-00000405",
+            "name": "Пленки для принтера",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14521",
+            "code": "00-00000419",
+            "name": "Разная бумага",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14553",
+            "code": "00-00000414",
+            "name": "Рулон 24-36\"",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14564",
+            "code": "00-00000413",
+            "name": "Рулон 42-44\"",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14570",
+            "code": "00-00000416",
+            "name": "Рулон 60\" и более",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14576",
+            "code": "0М-00025968",
+            "name": "Рулоны",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14582",
+            "code": "00-00000417",
+            "name": "Самоклеющаяся",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14609",
+            "code": "0М-00000066",
+            "name": "Термопленки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14642",
+            "code": "0М-00025962",
+            "name": "Термотрансфер",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14647",
+            "code": "00-00000411",
+            "name": "Фотобумага",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14776",
+            "code": "0М-00025957",
+            "name": "Холсты",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14792",
+            "code": "00-00000410",
+            "name": "Широкоформатная бумага",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_14862",
+        "code": "0М-00095781",
+        "name": "Запчасти для ремонта техники",
+        "children": [
+          {
+            "id": "group_14863",
+            "code": "0М-00179050",
+            "name": "_Другие запчасти",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14904",
+            "code": "00-00288726",
+            "name": "Блоки проявки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14929",
+            "code": "0М-00179042",
+            "name": "Бушинги",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14931",
+            "code": "00-00288714",
+            "name": "Валы резиновые (нижние)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14951",
+            "code": "00-00288715",
+            "name": "Валы тефлоновые (верхние)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14969",
+            "code": "00-00288728",
+            "name": "Лотки, Кассеты",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14980",
+            "code": "0М-00179049",
+            "name": "Печатающие головки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_14996",
+            "code": "0М-00179047",
+            "name": "Платы форматирования, контроллера, питания",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15023",
+            "code": "0М-00179043",
+            "name": "Подшипники, Втулки, Бушинги",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15053",
+            "code": "0М-00179045",
+            "name": "Пружины",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15059",
+            "code": "0М-00179048",
+            "name": "Редукторы, Узлы, Приводы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15100",
+            "code": "0М-00179041",
+            "name": "Ремкомплекты",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15102",
+            "code": "00-00288713",
+            "name": "Ролики заряда",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15106",
+            "code": "0М-00179040",
+            "name": "Ролики, Наборы роликов, Насадки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15422",
+            "code": "00-00288729",
+            "name": "Соленоиды",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15424",
+            "code": "00-00235270",
+            "name": "Термоузлы/нагреватели/блоки фиксации",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15432",
+            "code": "00-00288722",
+            "name": "Тормозные площадки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15476",
+            "code": "00-00288730",
+            "name": "Шарниры, Кронштейны, Держатели",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15499",
+            "code": "0М-00179044",
+            "name": "Шестерня",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_15586",
+            "code": "0М-00179046",
+            "name": "Шлейфы",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_16073",
+        "code": "0М-00000048",
+        "name": "Материалы для заправки",
+        "children": [
+          {
+            "id": "group_16074",
+            "code": "00-00288710",
+            "name": "Втулки, бушинги",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16078",
+            "code": "00-00288708",
+            "name": "Девелоперы и стартеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16082",
+            "code": "00-00288711",
+            "name": "Дозирующие лезвия",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16091",
+            "code": "0М-00000054",
+            "name": "Другие компоненты",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16104",
+            "code": "00-00288733",
+            "name": "Заправочные комплекты",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16108",
+            "code": "0М-00000055",
+            "name": "ЗИП для оргтехники",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16476",
+            "code": "0М-00125587",
+            "name": "Очистители",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16478",
+            "code": "0М-00000057",
+            "name": "Пылесос тех.",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16481",
+            "code": "00-00288712",
+            "name": "Ракели",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16498",
+            "code": "00-00235269",
+            "name": "Ремкомплекты, Комплекты обслуживания",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16578",
+            "code": "0М-00017622",
+            "name": "Селеновые валы (барабаны)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16604",
+            "code": "0М-00000053",
+            "name": "Тонер",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16634",
+            "code": "0М-00031113",
+            "name": "Узлы, флажки и фильтры, фиксаторы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16763",
+            "code": "0М-00000056",
+            "name": "Узлы/блоки/коллекторы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16827",
+            "code": "0М-00031112",
+            "name": "Фотобарабаны",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16903",
+            "code": "0М-00000049",
+            "name": "Фотокондукторы и барабаны",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16925",
+            "code": "0М-00031111",
+            "name": "Фьюзеры и термоузлы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_16941",
+            "code": "0М-00000051",
+            "name": "Чернила и заправки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17088",
+            "code": "0М-00000052",
+            "name": "Чипы",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_17399",
+        "code": "0М-00000058",
+        "name": "ОРИГИНАЛЬНЫЕ Расходные материалы",
+        "children": [
+          {
+            "id": "group_17400",
+            "code": "0М-00017621",
+            "name": "Барабаны (ориг.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17510",
+            "code": "00-00288731",
+            "name": "Драм-картриджи",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17512",
+            "code": "00-00288732",
+            "name": "Драм-юниты",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17583",
+            "code": "0М-00000059",
+            "name": "Другие оригинальные компоненты",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17692",
+            "code": "0М-00031164",
+            "name": "Картридж чистящий",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17694",
+            "code": "0М-00000064",
+            "name": "Картриджи для принтеров (ориг.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17809",
+            "code": "0М-00000043",
+            "name": "Ленточные картриджи",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17836",
+            "code": "0М-00173569",
+            "name": "Ленточные картриджи (ориг.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17843",
+            "code": "0М-00000065",
+            "name": "Матричные картриджи (ориг.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17853",
+            "code": "0М-00000060",
+            "name": "Наборы для печати (ориг.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_17855",
+            "code": "0М-00000061",
+            "name": "Струйные картриджи (ориг.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_18464",
+            "code": "0М-00173570",
+            "name": "Термопленки (ориг.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_18466",
+            "code": "0М-00173571",
+            "name": "Тонер (ориг.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_18483",
+            "code": "0М-00000063",
+            "name": "Тонер для копиров (ориг.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_18518",
+            "code": "0М-00000062",
+            "name": "Тонер-картриджи (ориг.)",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_19592",
+        "code": "0М-00022220",
+        "name": "Расходные материалы (новые)",
+        "children": [
+          {
+            "id": "group_19593",
+            "code": "0М-00179051",
+            "name": "_новое поступление",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_20378",
+        "code": "0М-00000041",
+        "name": "СОВМЕСТИМЫЕ Расходные материалы",
+        "children": [
+          {
+            "id": "group_20379",
+            "code": "0М-00165787",
+            "name": "7Q",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_20382",
+            "code": "0М-00179052",
+            "name": "Boost",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_20385",
+            "code": "0М-00179036",
+            "name": "Bulat",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_20394",
+            "code": "0М-00113717",
+            "name": "Cactus",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_20946",
+            "code": "0М-00113718",
+            "name": "HI-Black",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_20955",
+            "code": "0М-00179056",
+            "name": "Katun",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_20958",
+            "code": "0М-00179054",
+            "name": "NetProduct",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_20966",
+            "code": "0М-00113716",
+            "name": "NV-Print",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21364",
+            "code": "0М-00165786",
+            "name": "ProfiLine",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21368",
+            "code": "00-00257706",
+            "name": "Sakura",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21370",
+            "code": "0М-00165788",
+            "name": "Static Control",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21373",
+            "code": "0М-00179053",
+            "name": "T2",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21384",
+            "code": "0М-00049051",
+            "name": "Совместимые для Canon",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21385",
+            "code": "0М-00049052",
+            "name": "Струйные картриджи Canon",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21420",
+            "code": "0М-00049053",
+            "name": "Тонер-картриджи Canon",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21456",
+            "code": "0М-00049055",
+            "name": "Совместимые для Epson",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21457",
+            "code": "0М-00049056",
+            "name": "Струйные картриджи Epson",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21494",
+            "code": "0М-00049059",
+            "name": "Совместимые для Konica-Minolta",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21495",
+            "code": "0М-00049060",
+            "name": "Тонер-картриджи Konica-Minolta",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21506",
+            "code": "0М-00049061",
+            "name": "Совместимые для Kyocera",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21507",
+            "code": "0М-00049062",
+            "name": "Тонер-картриджи Kyocera",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21594",
+            "code": "0М-00049063",
+            "name": "Совместимые для Lexmark",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21595",
+            "code": "0М-00049065",
+            "name": "Тонер-картриджи Lexmark",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21599",
+            "code": "0М-00049066",
+            "name": "Совместимые для OKI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21600",
+            "code": "0М-00049067",
+            "name": "Тонер-картриджи OKI",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21602",
+            "code": "0М-00049068",
+            "name": "Совместимые для Ricoh",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21603",
+            "code": "0М-00049069",
+            "name": "Тонер-картриджи Ricoh",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21639",
+            "code": "0М-00049070",
+            "name": "Совместимые для Samsung",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21640",
+            "code": "0М-00049071",
+            "name": "Тонер-картриджи Samsung",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21646",
+            "code": "0М-00049072",
+            "name": "Совместимые для Sharp",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21647",
+            "code": "0М-00049074",
+            "name": "Тонер-картриджи Sharp",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21650",
+            "code": "0М-00049075",
+            "name": "Совместимые для Xerox",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21651",
+            "code": "0М-00049076",
+            "name": "Тонер-картриджи Xerox",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21701",
+            "code": "0М-00000045",
+            "name": "Струйные картриджи (совм)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_21849",
+            "code": "0М-00000044",
+            "name": "Тонер сов.",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22066",
+            "code": "0М-00000042",
+            "name": "Тонер-картриджи (совм.)",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ],
+    "level": 0
+  },
+  {
+    "id": "group_22816",
+    "code": "00-00247733",
+    "name": "04. Смартфоны и гаджеты",
+    "children": [
+      {
+        "id": "group_22817",
+        "code": "00-00000190",
+        "name": "06. Планшеты",
+        "children": [
+          {
+            "id": "group_22818",
+            "code": "0М-00173563",
+            "name": "Планшеты детские",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22821",
+            "code": "00-00000264",
+            "name": "Планшеты для рисования",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22843",
+            "code": "00-00000192",
+            "name": "Планшеты с экраном 10\"",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_22894",
+        "code": "00-00000234",
+        "name": "07. Аксессуары для планшетов",
+        "children": [
+          {
+            "id": "group_22895",
+            "code": "00-00000239",
+            "name": "Адаптеры питания для планшетов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22952",
+            "code": "0М-00073031",
+            "name": "Аксессуары для графических планшетов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22958",
+            "code": "00-00000242",
+            "name": "Аксессуары для планшетов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22962",
+            "code": "00-00000235",
+            "name": "Держатели, подставки для планшетов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22964",
+            "code": "00-00000238",
+            "name": "Док-станции, порт-репликаторы для планшетов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22978",
+            "code": "00-00000236",
+            "name": "Мобильные аккумуляторы для планшетов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22994",
+            "code": "00-00000241",
+            "name": "Пленки для планшетов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_22999",
+            "code": "00-00000237",
+            "name": "Чехлы для планшетов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23024",
+            "code": "00-00000240",
+            "name": "Шнуры, кабели",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_23026",
+        "code": "00-00000421",
+        "name": "08. Сотовые телефоны",
+        "children": [
+          {
+            "id": "group_23027",
+            "code": "00-00000435",
+            "name": "Аккумуляторные батареи для сотовых",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23036",
+            "code": "00-00000426",
+            "name": "Аксессуары для сотовых телефонов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23079",
+            "code": "00-00000422",
+            "name": "Гарнитуры Bluetooth для телефонов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23082",
+            "code": "00-00000423",
+            "name": "Гарнитуры проводные для телефонов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23186",
+            "code": "00-00000424",
+            "name": "Держатели, подставки для сотовых",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23210",
+            "code": "0М-00000106",
+            "name": "Док-станции для телефонов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23212",
+            "code": "00-00000425",
+            "name": "Зарядные устройства для тел.",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23226",
+            "code": "00-00000430",
+            "name": "Защитные пленки, стёкла",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23267",
+            "code": "0М-00065573",
+            "name": "Кабель для сотовых",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23317",
+            "code": "00-00000427",
+            "name": "Мобильные аккумуляторы для телефонов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23334",
+            "code": "00-00000433",
+            "name": "Мобильные телефоны (Смартфоны)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23368",
+            "code": "00-00000434",
+            "name": "Часы для смартфонов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23370",
+            "code": "00-00000431",
+            "name": "Чехлы для сотовых телефонов",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_23401",
+        "code": "00-00000260",
+        "name": "18. Портативная электроника",
+        "children": [
+          {
+            "id": "group_23402",
+            "code": "0М-00049977",
+            "name": "Аксессуары для смарт-часов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23405",
+            "code": "00-00000356",
+            "name": "Плееры Flash MP3",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23410",
+            "code": "00-00000265",
+            "name": "Умные часы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23413",
+            "code": "00-00000263",
+            "name": "Электронные книги",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_23415",
+        "code": "0М-00021499",
+        "name": "22. Продукция Apple",
+        "children": [
+          {
+            "id": "group_23416",
+            "code": "0М-00173559",
+            "name": "Beats (Наушники)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23419",
+            "code": "00-00000336",
+            "name": "Доп. устройства для Apple",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23426",
+            "code": "0М-00073020",
+            "name": "Зарядные устройства для Apple",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23431",
+            "code": "0М-00073021",
+            "name": "Защитные пленки и стекла для apple",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23434",
+            "code": "0М-00073018",
+            "name": "Кабель для apple",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23445",
+            "code": "0М-00073019",
+            "name": "Переходники для Apple",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ],
+    "level": 0
+  },
+  {
+    "id": "group_23447",
+    "code": "0М-00000134",
+    "name": "05. Серверы и СХД",
+    "children": [
+      {
+        "id": "group_23448",
+        "code": "0М-00047204",
+        "name": "Видеоконференцсвязь",
+        "children": [],
+        "level": 1
+      },
+      {
+        "id": "group_23453",
+        "code": "0М-00171107",
+        "name": "Видеорешения Matrox",
+        "children": [],
+        "level": 1
+      },
+      {
+        "id": "group_23460",
+        "code": "0М-00060194",
+        "name": "Оборудование SDH",
+        "children": [
+          {
+            "id": "group_23461",
+            "code": "0М-00060197",
+            "name": "Модули SDH",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_23463",
+        "code": "00-00000171",
+        "name": "Профессиональные панели",
+        "children": [
+          {
+            "id": "group_23464",
+            "code": "00-00000172",
+            "name": "Аксессуары для LFD-панелей",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_23479",
+        "code": "0М-00000135",
+        "name": "Серверные Комплектующие",
+        "children": [
+          {
+            "id": "group_23480",
+            "code": "0М-00104061",
+            "name": "Комплекты для монтажа",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23495",
+            "code": "00-00242284",
+            "name": "Корпуса для Серверов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23500",
+            "code": "0М-00104063",
+            "name": "Платформы для сервера",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23508",
+            "code": "0М-00000141",
+            "name": "Прочие комплектующие для серверов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23571",
+            "code": "0М-00000137",
+            "name": "Серверная оперативная память",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23623",
+            "code": "0М-00000144",
+            "name": "Серверное ПО",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23625",
+            "code": "0М-00117059",
+            "name": "Серверные блоки питания",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23673",
+            "code": "0М-00104057",
+            "name": "Серверные диски SSD Enterprise SATA",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23676",
+            "code": "00-00000201",
+            "name": "Серверные жёсткие диски",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23755",
+            "code": "0М-00104060",
+            "name": "Серверные кабели",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23769",
+            "code": "0М-00116988",
+            "name": "Серверные контроллеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23813",
+            "code": "0М-00047030",
+            "name": "Серверные корпуса",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23923",
+            "code": "0М-00000140",
+            "name": "Серверные материнские платы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23941",
+            "code": "0М-00000142",
+            "name": "Серверные накопители",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_23973",
+            "code": "0М-00134565",
+            "name": "Серверные процессоры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24041",
+            "code": "0М-00104065",
+            "name": "Серверные системы охлаждения",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24070",
+            "code": "0М-00000136",
+            "name": "Сетевые адаптеры и модемы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24106",
+            "code": "0М-00104064",
+            "name": "Сетевые контроллеры",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_24112",
+        "code": "0М-00000150",
+        "name": "Серверы",
+        "children": [
+          {
+            "id": "group_24113",
+            "code": "0М-00000156",
+            "name": "Rack-dense Servers Middle Class Business Servers",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24115",
+            "code": "0М-00163323",
+            "name": "Аксессуары для серверов",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_24188",
+        "code": "0М-00033062",
+        "name": "Сетевая коммуникация",
+        "children": [
+          {
+            "id": "group_24189",
+            "code": "0М-00073053",
+            "name": "Кроссовое оборудование и кабели",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24197",
+            "code": "0М-00060282",
+            "name": "Решения для рабочих мест",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24198",
+            "code": "0М-00060283",
+            "name": "Вставки/каркасы/панели",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24207",
+            "code": "0М-00060284",
+            "name": "Коробки",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_24215",
+        "code": "0М-00022222",
+        "name": "Сетевое оборудование Pro",
+        "children": [
+          {
+            "id": "group_24216",
+            "code": "00-00000275",
+            "name": "Mediaсonverters Transceivers",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24223",
+            "code": "00-00000286",
+            "name": "Modules",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24229",
+            "code": "00-00000297",
+            "name": "Switches Enterprise",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24239",
+            "code": "00-00000289",
+            "name": "VoIP-оборудование",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24242",
+            "code": "00-00221963",
+            "name": "Wi-Fi точки доступа корпоративные",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24245",
+            "code": "00-00000291",
+            "name": "Для телекоммуникации",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24248",
+            "code": "00-00000280",
+            "name": "Другое (сетевое.)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24280",
+            "code": "0М-00065990",
+            "name": "Коммутаторы (Switch Enterprise)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24304",
+            "code": "0М-00065989",
+            "name": "Коммутаторы (Switch SOHO)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24312",
+            "code": "0М-00013017",
+            "name": "Коммутаторы (Switch) управляемые",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24338",
+            "code": "00-00218433",
+            "name": "Коммутаторы PoE",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24343",
+            "code": "0М-00065942",
+            "name": "Коммутаторы магистральные",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24347",
+            "code": "0М-00073032",
+            "name": "Конверторы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24349",
+            "code": "0М-00073040",
+            "name": "Контроллеры сетевые",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24378",
+            "code": "0М-00065988",
+            "name": "Маршрутизаторы (Routers SOHO)",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24387",
+            "code": "0М-00073034",
+            "name": "Модули расширения",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24389",
+            "code": "0М-00073035",
+            "name": "Монтажные комплекты",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24393",
+            "code": "0М-00104067",
+            "name": "Наружное оборудование",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24400",
+            "code": "0М-00104068",
+            "name": "Оборудование PoE",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24436",
+            "code": "00-00000296",
+            "name": "Трансиверы SFP, XFP",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24535",
+            "code": "00-00221959",
+            "name": "Шасси коммутаторов, модули и опции",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24541",
+            "code": "00-00221960",
+            "name": "Шасси маршрутизаторов, модули и опции",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_24546",
+        "code": "0М-00000145",
+        "name": "Системы хранения данных",
+        "children": [
+          {
+            "id": "group_24547",
+            "code": "0М-00104070",
+            "name": "Блоки расширения для СХД",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24550",
+            "code": "0М-00000148",
+            "name": "Дисковые системы хранения данных",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24575",
+            "code": "0М-00073025",
+            "name": "Жесткие диски системы хранения данных",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24577",
+            "code": "0М-00000146",
+            "name": "Опции к системам хранения",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24611",
+            "code": "0М-00000147",
+            "name": "Персональные СХД",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24614",
+            "code": "0М-00104071",
+            "name": "Стоечные хранилища",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "id": "group_24635",
+        "code": "0М-00000161",
+        "name": "Шкафы и стойки",
+        "children": [
+          {
+            "id": "group_24636",
+            "code": "0М-00013691",
+            "name": "Аксессуары для шкафов и стоек",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24637",
+            "code": "0М-00060289",
+            "name": "Блоки распределения питания",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24695",
+            "code": "0М-00017628",
+            "name": "Органайзеры",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24738",
+            "code": "0М-00060290",
+            "name": "Полки, ящики, опор.уголки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24908",
+            "code": "0М-00017625",
+            "name": "Опции для шкафов",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24913",
+            "code": "0М-00073041",
+            "name": "Сетевые шкафы",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24925",
+            "code": "0М-00047356",
+            "name": "Стойки",
+            "children": [],
+            "level": 2
+          },
+          {
+            "id": "group_24934",
+            "code": "0М-00017624",
+            "name": "Шкафы настенные",
+            "children": [],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ],
+    "level": 0
+  },
+  {
+    "id": "group_24938",
+    "code": "0М-00012380",
+    "name": "20. Все подряд",
+    "children": [
+      {
+        "id": "group_24939",
+        "code": "0М-00052559",
+        "name": "_Без группы",
+        "children": [],
+        "level": 1
+      }
+    ],
+    "level": 0
+  },
+  {
+    "id": "group_ungrouped",
+    "code": "ungrouped",
+    "name": "Без группы",
+    "children": [],
+    "level": 0
+  }
+]
