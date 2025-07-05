@@ -9,14 +9,23 @@ export default function App() {
   const [cart, setCart] = useState([]);
   const cartRef = useRef(null);
   const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "light");
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [showGroups, setShowGroups] = useState(false);
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const handleSelectGroup = (groupCodes) => {
     setGroupId(groupCodes);
     setResetQuantitiesTrigger(t => t + 1);
+    if (isMobile) setShowGroups(false);
   };
 
   // Обновить корзину при изменении количества
@@ -61,28 +70,61 @@ export default function App() {
           {theme === "dark" ? "Светлая тема" : "Тёмная тема"}
         </button>
       </div>
-      <div style={{ display: "flex", alignItems: "flex-start", marginTop: 40 }}>
-        <div className="side-panel" style={{ width: 300, minWidth: 200, borderRight: "1px solid #ccc", padding: 16 }}>
-          <button
-            className="show-all-btn"
-            onClick={() => {
-              if (groupId !== null) {
-                setGroupId(null);
-                setResetQuantitiesTrigger(t => t + 1);
-              }
-            }}
-            style={{ marginBottom: 8, padding: '4px 12px', borderRadius: 4, border: '1px solid #bbb', cursor: 'pointer' }}
-          >
-            Показать все товары (убрать фильтр по группам)
-          </button>
-          <CategoryTree onSelect={handleSelectGroup} />
-        </div>
-        <div className="main-panel" style={{ flex: 1, padding: 16 }}>
-          <ProductTable groupId={groupId} resetQuantitiesTrigger={resetQuantitiesTrigger} onQtyChange={handleQtyChange} />
-          <div ref={cartRef} id="cart">
-            <Cart cart={cart} removeFromCart={removeFromCart} setCart={setCart} />
-          </div>
-        </div>
+      <div style={{ display: isMobile ? "block" : "flex", alignItems: "flex-start", marginTop: 40 }}>
+        {isMobile ? (
+          <>
+            <div style={{ width: '100%', padding: 8, marginBottom: 8 }}>
+              <button
+                className="show-groups-btn"
+                onClick={() => setShowGroups(true)}
+                style={{ padding: '8px 16px', borderRadius: 6, border: '1px solid #bbb', background: '#f5f5f5', width: '100%', fontSize: 17, marginBottom: 8 }}
+              >
+                Категории
+              </button>
+            </div>
+            {showGroups && (
+              <div className="groups-overlay" style={{
+                position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
+                background: theme === 'dark' ? '#222' : '#fff',
+                color: theme === 'dark' ? '#eee' : '#222',
+                zIndex: 2000, overflowY: 'auto', padding: 16
+              }}>
+                <button onClick={() => setShowGroups(false)} style={{ position: 'absolute', top: 12, right: 16, fontSize: 28, background: 'none', border: 'none', color: '#888', cursor: 'pointer' }}>×</button>
+                <CategoryTree onSelect={handleSelectGroup} />
+              </div>
+            )}
+            <div className="main-panel" style={{ width: '100%', padding: 8 }}>
+              <ProductTable groupId={groupId} resetQuantitiesTrigger={resetQuantitiesTrigger} onQtyChange={handleQtyChange} />
+              <div ref={cartRef} id="cart">
+                <Cart cart={cart} removeFromCart={removeFromCart} setCart={setCart} />
+              </div>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="side-panel" style={{ width: 300, minWidth: 200, borderRight: "1px solid #ccc", padding: 16 }}>
+              <button
+                className="show-all-btn"
+                onClick={() => {
+                  if (groupId !== null) {
+                    setGroupId(null);
+                    setResetQuantitiesTrigger(t => t + 1);
+                  }
+                }}
+                style={{ marginBottom: 8, padding: '4px 12px', borderRadius: 4, border: '1px solid #bbb', cursor: 'pointer' }}
+              >
+                Показать все товары (убрать фильтр по группам)
+              </button>
+              <CategoryTree onSelect={handleSelectGroup} />
+            </div>
+            <div className="main-panel" style={{ flex: 1, padding: 16 }}>
+              <ProductTable groupId={groupId} resetQuantitiesTrigger={resetQuantitiesTrigger} onQtyChange={handleQtyChange} />
+              <div ref={cartRef} id="cart">
+                <Cart cart={cart} removeFromCart={removeFromCart} setCart={setCart} />
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
