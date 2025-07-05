@@ -80,7 +80,6 @@ export default function ProductTable({ groupId, resetQuantitiesTrigger, onQtyCha
   const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 });
   const cartIconRefs = useRef({});
   const [activeCartCode, setActiveCartCode] = useState(null);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   // Сброс количеств и товаров при изменении resetQuantitiesTrigger
   useEffect(() => {
@@ -329,12 +328,6 @@ export default function ProductTable({ groupId, resetQuantitiesTrigger, onQtyCha
     }
   };
 
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
   return (
     <div>
       {/* Фильтры над таблицей */}
@@ -409,91 +402,54 @@ export default function ProductTable({ groupId, resetQuantitiesTrigger, onQtyCha
       </div>
       <div className="page-size-panel">{PageSizeSelector}</div>
       {Pagination}
-      {isMobile ? (
-        <div className="product-cards-mobile">
+      <table className="product-table-zebra" style={{ width: "100%", borderCollapse: "collapse", overflowX: 'auto', display: 'block' }}>
+        <thead>
+          <tr>
+            <th style={{ textAlign: 'center', cursor: 'default' }}>Код</th>
+            <th style={{ textAlign: 'left', cursor: 'pointer' }} onClick={() => handleSort("name")}>Наименование ↕{arrow("name")}</th>
+            <th style={{ textAlign: 'center', cursor: 'pointer' }} onClick={() => handleSort("article")}>Артикул ↕{arrow("article")}</th>
+            <th style={{ textAlign: 'center', cursor: 'pointer' }} onClick={() => handleSort("manufacturer")}>Производитель ↕{arrow("manufacturer")}</th>
+            <th style={{ textAlign: 'center', cursor: 'pointer' }} onClick={() => handleSort("price")}>Цена ↕{arrow("price")}</th>
+            <th style={{ textAlign: 'center', cursor: 'default' }}>Склад</th>
+            <th style={{ textAlign: 'center', cursor: 'default' }}>Кол-во</th>
+            <th style={{ textAlign: 'center', cursor: 'default' }}>Сумма</th>
+          </tr>
+        </thead>
+        <tbody>
           {pagedProducts.map(p => (
-            <div className="product-card" key={p.code} style={{
-              border: '1px solid #ccc',
-              borderRadius: 8,
-              marginBottom: 12,
-              padding: 12,
-              background: '#fff',
-              boxShadow: '0 2px 4px rgba(0,0,0,0.03)'
-            }}>
-              <div><b>Код:</b> {p.code}</div>
-              <div><b>Наименование:</b> <a href="#" target="_blank" rel="noopener noreferrer">{p.name}</a></div>
-              <div><b>Артикул:</b> {p.article || ''}</div>
-              <div><b>Производитель:</b> {p.manufacturer || ''}</div>
-              <div><b>Цена:</b> {p.price}</div>
-              <div><b>Кол-во:</b>
+            <tr key={p.code} style={activeCartCode === p.code ? { background: '#e6e9f0', border: '2px solid #4a5a6a' } : {}}>
+              <td data-label="Код" style={{ position: 'relative' }}>
+                <span ref={el => cartIconRefs.current[p.code] = el} style={{ display: 'inline-block' }}>
+                  <CartIcon onClick={() => handleCartIconClick(p)} />
+                </span>
+                {p.code}
+              </td>
+              <td data-label="Наименование">
+                <a href="#" target="_blank" rel="noopener noreferrer">{p.name}</a>
+              </td>
+              <td data-label="Артикул" style={{ textAlign: 'center' }}>{p.article || ''}</td>
+              <td data-label="Производитель" style={{ textAlign: 'center' }}>{p.manufacturer || ''}</td>
+              <td data-label="Цена">{p.price}</td>
+              <td data-label="Склад">—</td>
+              <td data-label="Кол-во">
                 <input
                   type="number"
                   min="0"
                   value={quantities[p.code] || ""}
                   onChange={e => handleQtyChange(p.code, e.target.value, p)}
-                  style={{ width: 60, marginLeft: 8 }}
+                  style={{ width: 60 }}
                 />
-              </div>
-              <div><b>Сумма:</b> {quantities[p.code] && !isNaN(Number(quantities[p.code])) && Number(quantities[p.code]) > 0
-                ? (Number(quantities[p.code]) * Number((p.price + "").replace(/\s/g, "").replace(",", "."))).toLocaleString()
-                : ""
-              }</div>
-              <div style={{ marginTop: 8 }}>
-                <CartIcon onClick={() => handleCartIconClick(p)} />
-              </div>
-            </div>
-          ))}
-        </div>
-      ) : (
-        <table className="product-table-zebra" style={{ width: "100%", borderCollapse: "collapse" }}>
-          <thead>
-            <tr>
-              <th style={{ textAlign: 'center', cursor: 'default' }}>Код</th>
-              <th style={{ textAlign: 'left', cursor: 'pointer' }} onClick={() => handleSort("name")}>Наименование ↕{arrow("name")}</th>
-              <th style={{ textAlign: 'center', cursor: 'pointer' }} onClick={() => handleSort("article")}>Артикул ↕{arrow("article")}</th>
-              <th style={{ textAlign: 'center', cursor: 'pointer' }} onClick={() => handleSort("manufacturer")}>Производитель ↕{arrow("manufacturer")}</th>
-              <th style={{ textAlign: 'center', cursor: 'pointer' }} onClick={() => handleSort("price")}>Цена ↕{arrow("price")}</th>
-              <th style={{ textAlign: 'center', cursor: 'default' }}>Склад</th>
-              <th style={{ textAlign: 'center', cursor: 'default' }}>Кол-во</th>
-              <th style={{ textAlign: 'center', cursor: 'default' }}>Сумма</th>
+              </td>
+              <td data-label="Сумма">
+                {quantities[p.code] && !isNaN(Number(quantities[p.code])) && Number(quantities[p.code]) > 0
+                  ? (Number(quantities[p.code]) * Number((p.price + "").replace(/\s/g, "").replace(",", "."))).toLocaleString()
+                  : ""
+                }
+              </td>
             </tr>
-          </thead>
-          <tbody>
-            {pagedProducts.map(p => (
-              <tr key={p.code} style={activeCartCode === p.code ? { background: '#e6e9f0', border: '2px solid #4a5a6a' } : {}}>
-                <td data-label="Код" style={{ position: 'relative' }}>
-                  <span ref={el => cartIconRefs.current[p.code] = el} style={{ display: 'inline-block' }}>
-                    <CartIcon onClick={() => handleCartIconClick(p)} />
-                  </span>
-                  {p.code}
-                </td>
-                <td data-label="Наименование">
-                  <a href="#" target="_blank" rel="noopener noreferrer">{p.name}</a>
-                </td>
-                <td data-label="Артикул" style={{ textAlign: 'center' }}>{p.article || ''}</td>
-                <td data-label="Производитель" style={{ textAlign: 'center' }}>{p.manufacturer || ''}</td>
-                <td data-label="Цена">{p.price}</td>
-                <td data-label="Склад">—</td>
-                <td data-label="Кол-во">
-                  <input
-                    type="number"
-                    min="0"
-                    value={quantities[p.code] || ""}
-                    onChange={e => handleQtyChange(p.code, e.target.value, p)}
-                    style={{ width: 60 }}
-                  />
-                </td>
-                <td data-label="Сумма">
-                  {quantities[p.code] && !isNaN(Number(quantities[p.code])) && Number(quantities[p.code]) > 0
-                    ? (Number(quantities[p.code]) * Number((p.price + "").replace(/\s/g, "").replace(",", "."))).toLocaleString()
-                    : ""
-                  }
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      )}
+          ))}
+        </tbody>
+      </table>
       {Pagination}
       <div className="page-size-panel">{PageSizeSelector}</div>
       {modalOpen && modalItem && (

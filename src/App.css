@@ -1,0 +1,32 @@
+@media (max-width: 900px) {
+  .main-panel {
+    padding: 4px !important;
+  }
+  .side-panel {
+    min-width: 140px !important;
+    width: 140px !important;
+    font-size: 14px;
+    padding: 4px !important;
+  }
+  .product-table-zebra {
+    display: block !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+  }
+  .product-table-zebra thead, .product-table-zebra tbody, .product-table-zebra tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+}
+
+@media (max-width: 600px) {
+  .side-panel {
+    min-width: 100px !important;
+    width: 100px !important;
+    font-size: 12px;
+  }
+  .main-panel {
+    padding: 2px !important;
+  }
+} 
