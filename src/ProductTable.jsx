@@ -115,13 +115,13 @@ export default function ProductTable({ groupId, resetQuantitiesTrigger, onQtyCha
     }
     let filtered = allProducts;
     if (search) {
-      filtered = filtered.filter(p => p.name && p.name.toLowerCase().includes(search.toLowerCase()));
+      filtered = filtered.filter(p => p.name && String(p.name).toLowerCase().includes(search.toLowerCase()));
     }
     if (articleSearch) {
-      filtered = filtered.filter(p => p.article && p.article.toLowerCase().includes(articleSearch.toLowerCase()));
+      filtered = filtered.filter(p => p.article && String(p.article).toLowerCase().includes(articleSearch.toLowerCase()));
     }
     if (manufacturerSearch) {
-      filtered = filtered.filter(p => p.manufacturer && p.manufacturer.toLowerCase().includes(manufacturerSearch.toLowerCase()));
+      filtered = filtered.filter(p => p.manufacturer && String(p.manufacturer).toLowerCase().includes(manufacturerSearch.toLowerCase()));
     }
     if (priceMin) {
       filtered = filtered.filter(p => Number(p.price) >= Number(priceMin));
